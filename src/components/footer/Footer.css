@@ -1,0 +1,8 @@
+.footer {
+    background-image: linear-gradient(to bottom, #100c08dd,#24212466), url(../../images/footer.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

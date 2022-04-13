@@ -1,0 +1,43 @@
+.students {
+    background-color: #100c08;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.students__container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.students__image__img{
+    height: 750px;
+    width: auto;
+}
+
+
+.students__text__title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.students__text__p {
+    color: #ccc;
+}
+
+@media screen and (max-width: 1000px) {
+    .students__container{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .students__text__paragraph {
+        text-align: center;
+    }
+
+    .students__image__img {
+        text-align: center;
+    }
+}

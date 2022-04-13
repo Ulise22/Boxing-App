@@ -1,0 +1,59 @@
+.home {
+    background-image: linear-gradient(to bottom,#24212466, #100c0866), url(../../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 80px);
+    top: 80px;
+    overflow: hidden;
+}
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 50px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.home__title {
+    font-size: 70px;
+}
+
+.home__text {
+    color: #ccc;
+    font-size: 20px;
+}
+
+.home__link {
+    background-color: #777;
+    color: #fff;
+    width: 100px;
+    align-self: center;
+    padding: 20px 0;
+}
+
+.home__link:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+@media screen and (max-width: 950px) {
+    .home {
+        background-position: right;
+        background-attachment: fixed;
+    }
+
+    .home__container {
+        margin: 0;
+        bottom: 0px;
+        width: 100%;
+        justify-content: end;
+        position: absolute;
+    }
+}

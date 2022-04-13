@@ -1,0 +1,48 @@
+.training {
+    background-color: #242124;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.training__container {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.training__image__img{
+    height: 750px;
+    width: auto;
+}
+
+
+.training__text__title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.training__text__p {
+    color: #ccc;
+}
+
+@media screen and (max-width: 1000px) {
+    .training__container{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .training__text__paragraph {
+        text-align: center;
+    }
+
+    .training__image__img {
+        text-align: center;
+    }
+}

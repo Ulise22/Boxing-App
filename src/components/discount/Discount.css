@@ -1,0 +1,26 @@
+.discount {
+    background-image: linear-gradient(to bottom, #24212499, #13101399), url(../../images/offer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.discount__text {
+    margin: 50vh 0;
+}
+
+.discount__text__sub {
+    font-size: 30px;
+}
+
+.discount__text__price {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 950px) {
+    .discount__text {
+        text-align: center;
+    }
+}
